@@ -40,6 +40,10 @@ If you use yarn, run `npm info "eslint-config-airbnb@latest" peerDependencies` t
   ```sh
   npm install -g install-peerdeps
   install-peerdeps --dev eslint-config-airbnb
+  
+  or if using node8, use this shortcut
+  npx install-peerdeps --dev eslint-config-airbnb
+  
   ```
 
   The cli will produce and run a command like:
